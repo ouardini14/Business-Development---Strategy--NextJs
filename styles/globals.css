@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  @font-face {
+    font-family: "lulo";
+    src:url('/font/Lulo/Lulo-Clean-W01-One-Bold.woff')
+  }
+  @font-face {
+    font-family: "AvenirLT";
+    src:url('/font/avenir/AvenirLTProLight.woff')
+  }
+  @font-face {
+    font-family: "AvenirHeavy";
+    src:url('/font/avenir/AvenirLTProHeavy.woff')
+  }
+    body{
+        @apply overflow-x-hidden;
+       
+
+    }
+}
+  
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px var(--whiteColor); 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--blackColor); 
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #060606; 
+  }
+ 
+  [hidden] {
+    display: none !important;
+  }
