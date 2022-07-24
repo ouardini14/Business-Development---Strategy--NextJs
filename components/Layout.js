@@ -22,11 +22,22 @@ export default function Layout({ children }) {
         <meta property="og:type" content="product.group" />
         <meta property="og:url" content="https://bds-silk.vercel.app" />
 
-        <meta property="og:image:url" content="https://bds-silk.vercel.app/img/Preview1.png" />
-         
-<meta property="og:image:type" content="image/png" /> 
-<meta property="og:image:width" content="1200" /> 
-<meta property="og:image:height" content="620" />
+        <meta
+          property="og:image"
+          content="https://bds-silk.vercel.app/img/Preview1.png"
+        />
+        <meta
+          property="og:image:secure_url"
+          content="https://bds-silk.vercel.app/img/Preview1.png"
+        />
+        <meta
+          property="og:image:secure"
+          content="https://bds-silk.vercel.app/img/Preview1.png"
+        />
+
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:width" content="1165" />
+        <meta property="og:image:height" content="620" />
       </Head>
       <Header />
       {children}

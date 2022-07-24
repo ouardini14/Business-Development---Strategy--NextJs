@@ -20,8 +20,7 @@ export default function FourthSection() {
     await axios
       .post("/api/email", { values })
       .then((res) => {
-        SetLoading(false);
-
+       SetLoading(false);
         reset();
         setSuccess(true);
         setTimeout(() => {
@@ -118,8 +117,8 @@ export default function FourthSection() {
                 }
               })}
               className={` border-white  focus:border-0 focus:border-b-[3px]  focus:border-black border-b-[3px] border-[3px] border-b-black  focus:ring-0   ${errors.fname ? "border-b-red-500" : null}`}
-              name="email"
-              type="text"
+              name="phone"
+              type="tel"
             />
             <span className="text-red-400 text-sm py-2">
               {errors?.phone?.message}
