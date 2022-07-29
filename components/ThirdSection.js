@@ -6,8 +6,8 @@ export default function ThirdSection() {
       <h1 className="text-center font-AvenirHeavy tracking-tighter text-4xl">
         I NOSTRI SERVIZI
       </h1>
-      <div className="flex flex-col gap-5 2xl:gap-36 md:grid md:grid-cols-3 ">
-        <div className="flex flex-col  text-center space-y-3 ">
+      <div className="flex flex-col gap-12 2xl:gap-36 md:grid md:grid-cols-3 ">
+        <div className="flex flex-col  text-center space-y-3  pt-12 md:pt-0">
           <div className=" md:min-h-[185px] flex  items-center justify-center ">
             <Image
               src={"/img/img1.png"}
@@ -38,8 +38,8 @@ export default function ThirdSection() {
               src={"/img/img2.png"}
               alt="image1"
               layout="intrinsic"
-              width={263}
-              height={171}
+              width={170}
+              height={70}
             />
           </div>
 

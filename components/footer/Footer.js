@@ -5,7 +5,7 @@ export default function Footer() {
     <div>
       <div className="relative md:grid md:grid-cols-2 flex flex-col items-center justify-center  gap-10  py-8 w-screen  px-4 sm:px-5  lg:px-28 font-AvenirLT">
         <div className="flex items-center justify-center ">
-          <div className="relative w-[210px] h-[80px]">
+          <div className="relative w-[210px] h-[80px] hidden md:inline">
             <Image src={"/img/logo.png"} alt="Logo" layout="fill" />
           </div>
         </div>
