@@ -50,36 +50,7 @@ export default function Header({ categories }) {
   //    })
 
 
-  const [y, setY] = useState( );
 
-const handleNavigation = useCallback(
-  e => {
-    const window = e.currentTarget;
-    if (y > window.scrollY) {
-      gsap.to(headerRef.current,{
-        opacity:1,
-        yPercent:0
-      })
-    } else if (y < window.scrollY) {
-      gsap.to(headerRef.current,{
-        opacity:0,
-        yPercent:-100
-
-      })
-    }
-    setY(window.scrollY);
-  }, [y]
-);
-
-useEffect(() => {
-  
-  setY(window.scrollY);
-  window.addEventListener("scroll", handleNavigation);
-
-  return () => {
-    window.removeEventListener("scroll", handleNavigation);
-  };
-}, [handleNavigation]);
 
   function OpenMenu() {
     gsap

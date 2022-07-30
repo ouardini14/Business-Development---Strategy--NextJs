@@ -38,7 +38,7 @@ export default function ThirdSection() {
               src={"/img/img2.png"}
               alt="image1"
               layout="intrinsic"
-              width={170}
+              width={240}
               height={70}
             />
           </div>
@@ -64,7 +64,7 @@ export default function ThirdSection() {
           </div>
 
           <h3 className="font-AvenirHeavy tracking-tighter text-3xl  md:min-h-[85px]">
-            Vendita professionale su Amazone
+            Vendita professionale su Amazon
           </h3>
           <p className="font-AvenirLT  text-[15px]">
           Hai un{"'"}azienda e attualmente stai pensando o hai già iniziato a vendere online? <br/>
