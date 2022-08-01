@@ -11,11 +11,11 @@ export default function Layout({ children }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Business Developmetn & Strategy , BDS is a company born to offer the customer the maximum experience and professionalism."
+          content="Business Development & Strategy , BDS is a company born to offer the customer the maximum experience and professionalism."
         />
         <meta
           name="keywords"
-          content="BDS , Business Developmetn  Strategy,  BDS is a company born to offer the customer the maximum experience and professionalism."
+          content="BDS , Business Development  Strategy,  BDS is a company born to offer the customer the maximum experience and professionalism."
         />
 
         <meta property="og:title" content="B.D.S" />
