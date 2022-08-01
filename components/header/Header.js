@@ -122,7 +122,7 @@ export default function Header({ categories }) {
   };
 
   return (
-    <header ref={headerRef} className="fixed top-0 left-0 right-0 w-screen z-[100] font-AvenirLT md:bg-white">
+    <header ref={headerRef} className="absolute top-0 left-0 right-0 w-screen z-[100] font-AvenirLT md:bg-white">
       <div
         className={`relative flex justify-between items-center   py-8 w-screen  px-4 sm:px-5  lg:px-28`}
       >
