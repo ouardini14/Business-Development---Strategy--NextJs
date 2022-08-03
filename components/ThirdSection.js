@@ -32,14 +32,12 @@ export default function ThirdSection() {
              </li> 
             </ul>
             <br/> 
-            Nell{"'"}esigenza di una visita o una prestazione immediata ti rechi nel pubblico o nel
-            privato?  <br/> <br/>
-            Se ci fosse la soluzione adatta, con pochi soldi, per
-            mettere in protezione la tua famiglia e permetterti di scegliere
+            Nell{"'"}esigenza di una visita o una prestazione immediata ti rechi nel pubblico o nel privato?  <br/> <br/>
+            SSe ci fosse la soluzione adatta, con pochi soldi e senza limiti di età, per mettere in protezione la tua famiglia e permetterti di scegliere dove curarti la prenderesti in considerazione?
             dove curarti la prenderesti in considerazione?  <br/> <br/>
             
           </p>
-          <p className="text-[12px]  italic">“Sanità su Misura” è un marchio registrato</p>
+          <p className="text-[12px]  italic">“Il nostro è un metodo esclusivo e personalizzabile“</p>
         </div>
 
         <div className="flex flex-col   space-y-3  ">
@@ -79,7 +77,7 @@ export default function ThirdSection() {
 
           <h3 className="font-AvenirHeavy tracking-tighter text-3xl  md:min-h-[85px] text-center ">
             Vendita professionale su Amazon
-          </h3>
+          </h3>  
           <p className="font-AvenirLT  text-[15px]">
           Stai pensando o hai già iniziato a vendere online? <br/><br/>
           Sei al corrente che Amazon è oggi nel mondo il primo canale di vendita? <br/> <br/>

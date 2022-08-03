@@ -30,11 +30,11 @@ export default function SecondSection2() {
           </p>
         </div>
         <div className="flex items-center justify-center pt-14">
-          <div className="relative w-[350px] h-[520px] md:w-[400px]  md:h-[600px]">
+          <div className="relative w-[450px] h-[220px] md:w-[509px]  md:h-[296px]">
             <Image src={"/img/img5.png"} alt="logo" layout="fill" />
           </div>
         </div>
       </div>
-    </div>
+    </div>  
   );
 }
