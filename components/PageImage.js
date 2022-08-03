@@ -7,14 +7,9 @@ export default function PageImage({title,imageUrl,image,style,bgHeight}) {
     style={{ 
       backgroundImage: `url(${imageUrl})` 
     }}
-    className= {`font-lulo  w-screen  ${bgHeight} relative bg-fixed   bg-cover bg-center  bg-no-repeat	flex items-center justify-center`}>
-    <div className='relative  w-full  h-full lg:hidden'>
-    <Image
-      layout='fill'
-      alt="Main Image"
-      src={imageUrl}
-      priority
-      />
+    className= {`font-lulo  w-screen  ${bgHeight} relative   bg-cover bg-bottom  bg-no-repeat	flex items-center justify-center lg:bg-center`}>
+    <div className='relative  w-[1000px]  h-full lg:hidden'>
+   
     </div>
     <div className='absolute h-full w-full bg-black bg-opacity-40 '></div>
 
