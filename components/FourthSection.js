@@ -35,13 +35,13 @@ export default function FourthSection() {
 
   return (
     <div className="py-12 w-screen  px-4 sm:px-5  lg:px-28">
-      <div className="flex flex-col   gap-10 md:grid md:grid-cols-2 ">
+      <div className="flex flex-col   items-center justify-center">
         <form
           onSubmit={handleSubmit(onSubmitForm)}
-          className="font-Helvetica flex flex-col  px-8 space-y-3 pt-10 md:pt-0  "
+          className="font-Helvetica flex flex-col  px-8 space-y-3 pt-10 md:pt-0 lg:min-w-[50vw] "
         >
-          <h1 className='font-AvenirHeavy tracking-tighter text-4xl pb-3'>Contattaci se hai bisogno di più info</h1>
-          <div className="flex flex-col md:flex-row md:items-center md:justify-between md:space-y-0 justify-center space-y-3  ">
+          <h1 className='font-AvenirHeavy tracking-tighter text-4xl pb-3 text-center'>Contattaci se hai bisogno di più info</h1>
+          <div className="flex flex-col md:flex-row md:items-center md:justify-between md:space-y-0 justify-center space-y-3  pt-5 ">
             <label className="flex flex-col space-y-2">
               <span>Nome</span>
               <input
@@ -165,12 +165,8 @@ export default function FourthSection() {
           </button>
         </form>
 
-        <div className="flex items-center justify-center">
-          <div className="relative h-[500px] w-[282px] md:h-full" >
-            <Image src={"/img/img4.png"} alt="Image BDS" layout="fill" />
-          </div>
-        </div>
+
       </div>
-    </div>
+    </div> 
   );
 }
