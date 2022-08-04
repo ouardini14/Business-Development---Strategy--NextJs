@@ -6,10 +6,12 @@ import SecondSection from "../components/SecondSection";
 import ThirdSection from "../components/ThirdSection";
 import FourthSection from "../components/FourthSection";
 import SecondSection2 from "../components/SecondSection2";
+import Cookies from "../components/Cookies";
 
 export default function Home() {
   return (
     <div className="min-h-screen  md:pt-[100px]">
+      <Cookies/>
       <div id="Home">
         {" "}
         <PageImage
