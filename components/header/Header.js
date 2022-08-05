@@ -126,13 +126,17 @@ export default function Header({ categories }) {
       <div
         className={`relative flex justify-between items-center   py-8 w-screen  px-4 sm:px-5  lg:px-28`}
       >
-        <Image
+        <a href={"/"}> 
+        <>  <Image
           src="/img/logo.png"
           height={55}
           width={146}
           alt="Logo"
           className="z-[100]"
-        />
+        /></>
+      
+        </a>
+
 
         <div className=" items-center space-x-7    hidden md:flex   ">
           <HeaderItem title="Home" Goto={Goto} section="Home" />

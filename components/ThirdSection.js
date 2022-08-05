@@ -27,13 +27,13 @@ export default function ThirdSection() {
               <li>
               I sistemi della sanità privata escludono una parte della popolazione (punto di debolezza), ma la quota restante è servita bene (punto di forza).
               </li>
-              <li>
+              <li> 
               I sistemi SSN assistono tutti (punto di forza), ma talvolta in maniera poco efficace (punto di debolezza).
              </li> 
             </ul>
             <br/> 
             Nell{"'"}esigenza di una visita o una prestazione immediata ti rechi nel pubblico o nel privato?  <br/> <br/>
-            SSe ci fosse la soluzione adatta, con pochi soldi e senza limiti di età, per mettere in protezione la tua famiglia e permetterti di scegliere dove curarti la prenderesti in considerazione?
+            Se ci fosse la soluzione adatta, con pochi soldi e senza limiti di età, per mettere in protezione la tua famiglia e permetterti di scegliere dove curarti la prenderesti in considerazione?
             dove curarti la prenderesti in considerazione?  <br/> <br/>
             
           </p>

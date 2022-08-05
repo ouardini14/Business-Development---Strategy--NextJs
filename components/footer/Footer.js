@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from 'next/link'
 export default function Footer() {
   return (
     <div>
@@ -16,8 +17,17 @@ export default function Footer() {
             C.F e P.iva <b>09729160961</b><br/><br/>
              E-mail <b>info@bdstrategy.it</b> <br/>
              Tel. <b>+39 0323 403468 </b><br/>
-             Fax <b>+39 0323 517678</b>
+             Fax <b>+39 0323 517678</b><br/><br/>
+             <Link href={"Privacy_Policy"}>
+            <span className="cursor-pointer underline text-slate-900">
+            Privacy Policy 
+          </span> 
+
+            </Link><br/>
           </div>
+
+          
+
           <div></div>
         </div>
       </div>
