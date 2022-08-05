@@ -15,9 +15,9 @@ export default function SecondSection() {
           I nostri clienti sono Aziende esistenti, Startup e Professionisti di ogni settore ma anche Privati e Famiglie.  
           </p>
         </div>
-        <div className="flex items-center justify-center pt-14 rounded-full overflow-hidden">
-          <div className="relative w-[350px] h-[120px] md:w-[500px]  md:h-[180px] rounded-full overflow-hidden">
-            <Image src={"/img/MainImage2.png"} alt="logo" layout="fill" className="rounded-full"/>
+        <div className="flex items-center justify-center pt-14 ">
+          <div className="relative w-[350px] h-[120px] md:w-[500px]  md:h-[180px] ">
+            <Image src={"/img/MainImage2.png"} alt="logo" layout="fill" />
           </div>
         </div>
       </div>
