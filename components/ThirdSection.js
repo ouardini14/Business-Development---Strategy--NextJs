@@ -33,8 +33,7 @@ export default function ThirdSection() {
             </ul>
             <br/> 
             Nell{"'"}esigenza di una visita o una prestazione immediata ti rechi nel pubblico o nel privato?  <br/> <br/>
-            Se ci fosse la soluzione adatta, con pochi soldi e senza limiti di età, per mettere in protezione la tua famiglia e permetterti di scegliere dove curarti la prenderesti in considerazione?
-            dove curarti la prenderesti in considerazione?  <br/> <br/>
+            Se ci fosse la soluzione adatta, con pochi soldi e senza limiti di età, per mettere in protezione la tua famiglia e permetterti di scegliere dove curarti la prenderesti in considerazione?  <br/> <br/>
             
           </p>
           <p className="text-[12px]  italic">“Il nostro è un metodo esclusivo e personalizzabile“</p>

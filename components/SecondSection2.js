@@ -23,8 +23,7 @@ export default function SecondSection2() {
         Cambiare frequentemente auto per soddisfare i propri bisogni non è sempre alla portata di tutti. Ma se fosse possibile ed accessibile soddisfare l{"'"}esigenza, il desiderio o necessità dell{"'"}azienda e del privato?
         <br/><br/>
         <b>Tutto, o quasi tutto, oggi gira su Internet!</b> <br/>
-        I maggiori bisogni di consumo prodotti e servizi, oggi, sono soddisfatti on-
-        line. Tu Azienda, cosa fai? La nostra è una proposta di valore ma anche
+        I maggiori bisogni di consumo prodotti e servizi, oggi, sono soddisfatti online. Tu Azienda, cosa fai? La nostra è una proposta di valore ma anche
         una promessa di valore che potrai applicare per migliorare e sviluppare i
         tuoi canali di vendita.
           </p>
