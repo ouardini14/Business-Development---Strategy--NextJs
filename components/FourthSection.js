@@ -166,8 +166,8 @@ export default function FourthSection() {
         </form>
 
         <div className="flex items-center justify-center">
-          <div className="relative w-[450px] h-[220px] md:w-[509px]  md:h-[296px] rounded-[18px] overflow-hidden " >
-            <Image src={"/img/img4.png"} alt="Image BDS" layout="fill"  className="rounded-[18px]" />
+          <div className="relative w-[600px] h-[220px] md:w-[509px]  md:h-[296px] rounded-[18px] overflow-hidden " >
+            <Image src={"/img/img4.png"} alt="Image BDS" layout="responsive" width={"600"} height={"300"}  className="rounded-[18px]" />
           </div> 
         </div>
       </div>
