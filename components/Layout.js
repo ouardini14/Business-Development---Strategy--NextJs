@@ -38,7 +38,8 @@ export default function Layout({ children }) {
         <meta property="og:image:type" content="image/png" />
         <meta property="og:image:width" content="1165" />
         <meta property="og:image:height" content="620" />
-      </Head>
+        <script async src="https://cdn.splitbee.io/sb.js"></script>
+              </Head>
       <Header />
       {children}
       <Footer />
